@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_home"
+            android:icon="@mipmap/menu_home"
+            android:title="@string/navigation_home"/>
+        <!--<item
+            android:id="@+id/navigation_item_collect"
+            android:icon="@mipmap/menu_collect"
+            android:title="@string/navigation_collect"/>-->
+        <item
+            android:id="@+id/navigation_item_about"
+            android:icon="@mipmap/menu_about"
+            android:title="@string/navigation_about"/>
+        <item
+            android:id="@+id/navigation_item_setting"
+            android:icon="@mipmap/menu_setting"
+            android:title="@string/navigation_setting"/>
+        <item
+            android:id="@+id/navigation_item_exit"
+            android:icon="@mipmap/menu_exit"
+            android:title="@string/navigation_exit"/>
+    </group>
+
+
+</menu>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/grey"
+              tools:context="com.cqs.legou_client.SettingActivity">
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/include_toolbar"
+        />
+
+
+    <Button
+        android:id="@+id/bt_know"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@color/orange"
+        android:text="操作须知"
+        android:textColor="@color/yellowGreenColor"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <Button
+        android:id="@+id/bt_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:text="联系电话"
+        android:textColor="@color/yellowGreenColor"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:text="联系qq:935966764"
+        android:textColor="@color/yellowGreenColor"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <!--<Button
+        android:id="@+id/bt_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:text="检查更新"
+        android:textColor="@color/yellowGreenColor"
+        android:textSize="20dp"
+        />-->
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/setingback"
+    />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ff9209</color>
+    <color name="primary_dark">#ff7b08</color>
+    <color name="primary_light">#dfb307</color>
+    <color name="accent">#ffb74d</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="tab_bgcolor">#eeeeee</color>
+    
+    <color name="second_headcolor">#afafaf</color>
+    <color name="orange">#ffff6900</color>
+
+
+    <!--二维码复制的-->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_frame">#ff88ae00</color>
+
+</resources>

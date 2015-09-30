@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+    <com.marshalchen.common.ui.CircleImageView
+        android:id="@+id/ci_helper"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/time"
+        android:padding="10dp"
+        android:src="@mipmap/icon"
+        />
+
+    <TextView
+        android:id="@+id/tv_helper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_toRightOf="@id/ci_helper"
+        android:background="@drawable/tv_receive_bg"
+        android:gravity="center"
+        android:text="我接收的"
+        />
+
+
+
+</RelativeLayout>
